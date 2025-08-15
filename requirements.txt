@@ -1,0 +1,14 @@
+pandas==2.3.1
+matplotlib==3.10.5
+scikit-learn==1.7.1
+seaborn==0.13.2
+openpyxl==3.1.5
+nltk==3.9.1
+spacy==3.8.7
+#https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.8.0/en_core_web_md-3.8.0.tar.gz
+networkx==3.5
+hdbscan==0.8.40
+torch==2.8.0
+umap
+adjustText
+textwrap
