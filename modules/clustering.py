@@ -424,7 +424,7 @@ def plot_cumulative_embedding_pipeline(
 
     # Save and show
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    plt.savefig(f"{timestamp}.png", dpi=300, bbox_inches='tight')
+    plt.savefig(f"figures/{timestamp}.png", dpi=300, bbox_inches='tight')
     plt.show()
 
     return df2
@@ -591,7 +591,7 @@ def plot_embedding_2d_3d(
 
     plt.tight_layout(rect=[0, 0.1, 1, 1])
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    plt.savefig(f"{timestamp}.png", dpi=300, bbox_inches='tight')
+    plt.savefig(f"figures/{timestamp}.png", dpi=300, bbox_inches='tight')
     plt.show()
 
     return df2

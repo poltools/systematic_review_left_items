@@ -224,7 +224,7 @@ def plot_category_evolution(
                loc='lower center', ncol=len(cats), frameon=False)
 
     plt.tight_layout(rect=[0,0.05,1,1])
-    plt.savefig(f"{file_title}.png", dpi=300, bbox_inches='tight')
+    plt.savefig(f"figures/{file_title}.png", dpi=300, bbox_inches='tight')
     plt.show()
 
     return df_plot
