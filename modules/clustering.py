@@ -140,7 +140,7 @@ def plot_cumulative_embedding_pipeline(
     # Point styling
     point_size: int = 18,
     point_alpha: float = 0.7,
-    # NEW: borders around points
+    # borders around points
     point_edgecolor: str | None = 'white',  # None disables border
     point_edgewidth: float = 0.6,
     outline_mode: str = 'edge',             # 'edge' (single scatter) or 'halo' (double scatter)
@@ -569,7 +569,6 @@ def plot_embedding_2d_3d(
         ax2.scatter(pts['x'], pts['y'], pts['z'], s=15, c=[color_map[g]],
                     alpha=0.7, edgecolors='k', linewidths=0.2)
 
-    # ——— here come our fixes ———
     ax2.view_init(elev=elev, azim=azim)
     ax2.dist = 9  # smaller → zoom in, larger → zoom out
     ax2.tick_params(axis='x', rotation=0)
