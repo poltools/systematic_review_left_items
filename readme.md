@@ -131,13 +131,19 @@ chmod +x setup.sh
 ```bash
 source .venv/bin/activate
 ```
-
 If you prefer manual installation:
+
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
+```
+
+Unzip the classification data archive:
+
+```bash
+unzip data/llama_classified.zip -d data/
 ```
 
 ---
@@ -162,6 +168,16 @@ The notebook will:
 > ```bash
 > jupyter nbconvert --to notebook --execute analysis.ipynb --output analysis_exec.ipynb
 > ```
+
+### Expected output
+
+In the folder `figures/expected_outputs` we can find 
+
+### Estimated execution time
+The process of running the pipeline as-is (pre-computed embeddings and classification) is matter of a few minutes.
+
+New embedding computation will take a 1-3 hours, depending on your system requirements.
+New classification of all items will take between 1-N hours depending on your system specs. In our case, served by an external service (KISSKI - see below) took around 5 hours, since resources are allocated on demand for multiple users.
 
 ---
 
