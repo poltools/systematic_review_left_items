@@ -1,3 +1,11 @@
+# A comprehensive systematic review of the psychometrics of left-wing ideology
+
+Code and data to reproduce the analyses and figures of:
+
+> Avendaño, D., Lopez-Lopez, E., Sánchez-Zavala, A., Gayozzo, P., Brisuela Blume, L., Díaz, J., Santibáñez-Palma, J. F., Martínez-Vázquez, A., García-Belaunde, V., Arango, E., & Fasce, A. (2026). *A comprehensive systematic review of the psychometrics of left-wing ideology*. PsyArXiv. https://doi.org/10.31234/osf.io/47bq3_v1
+
+Preprint: https://osf.io/preprints/psyarxiv/47bq3
+
 ## Cloning This Repository
 
 This project uses [Git Large File Storage (Git LFS)](https://git-lfs.com/) to manage files larger than 100 MB.  
@@ -266,7 +274,20 @@ Settings used for the results reported: model Llama‑3.1‑70B‑Instruct, `tem
 
 ## Citing This Work
 
-If you use this code or data, please cite the accompanying paper.
+If you use this code or data, please cite the accompanying paper:
+
+> Avendaño, D., Lopez-Lopez, E., Sánchez-Zavala, A., Gayozzo, P., Brisuela Blume, L., Díaz, J., Santibáñez-Palma, J. F., Martínez-Vázquez, A., García-Belaunde, V., Arango, E., & Fasce, A. (2026). *A comprehensive systematic review of the psychometrics of left-wing ideology*. PsyArXiv. https://doi.org/10.31234/osf.io/47bq3_v1
+
+```bibtex
+@misc{avendano2026leftwing,
+  title     = {A comprehensive systematic review of the psychometrics of left-wing ideology},
+  author    = {Avenda{\~n}o, Diego and Lopez-Lopez, Ezequiel and S{\'a}nchez-Zavala, Angel and Gayozzo, Piero and Brisuela Blume, Laureano and D{\'i}az, Juan and Santib{\'a}{\~n}ez-Palma, J. Francisco and Mart{\'i}nez-V{\'a}zquez, Amauri and Garc{\'i}a-Belaunde, V{\'i}ctor and Arango, Edwar and Fasce, Angelo},
+  year      = {2026},
+  publisher = {PsyArXiv},
+  doi       = {10.31234/osf.io/47bq3_v1},
+  url       = {https://osf.io/preprints/psyarxiv/47bq3}
+}
+```
 
 ---
 
